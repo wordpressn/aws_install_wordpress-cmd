@@ -38,7 +38,8 @@ sudo mv wordpress/ /var/www/html
 sudo systemctl restart apache2
 OR
 sudo systemctl reload apache2
-
+#to change  root  dir 
+cd /etc/apache2/sites-available/
 13. Install certbot
 sudo apt-get update
 sudo apt install certbot python3-certbot-apache
