@@ -46,3 +46,8 @@ sudo apt install certbot python3-certbot-apache
 
 14. Request and install ssl on your site with certbot
 sudo certbot --apache
+
+#to   install  pugin  on  direct aws  add this to  wp_config.php
+define('FS_METHOD', 'direct');
+#add  right permisssion on wp-content  folder 
+sudo chmod -R 777 /var/www/wordpress/wp-content
