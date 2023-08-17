@@ -1,5 +1,5 @@
 All the commands that are executed in the above youtube video are mentioned in this gist. 
-
+sudo apt-get update
 1. Install Apache server on Ubuntu
 sudo apt install apache2
 
